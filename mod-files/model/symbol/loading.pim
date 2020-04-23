@@ -1,0 +1,93 @@
+Header {
+    FormatVersion: 5
+    Source: "Blender 2.81.16 (hash: f1aa4d18d49d), SCS Blender Tools: 2.0.dd0ff0b"
+    Type: "Model"
+    Name: "loading"
+}
+Global {
+    VertexCount: 8
+    TriangleCount: 4
+    MaterialCount: 1
+    PieceCount: 1
+    PartCount: 1
+    BoneCount: 0
+    LocatorCount: 0
+    Skeleton: "loading.pis"
+    PieceSkinCount: 0
+}
+Material {
+    Index: 0
+    Alias: "cb8098cb1eebe417d70100b76cfe37c4f5b0c6"
+    Effect: "eut2.dif.a.decal.over"
+}
+Piece {
+    Index: 0
+    Material: 0
+    VertexCount: 8
+    TriangleCount: 4
+    StreamCount: 4
+    Stream {
+        Format: FLOAT3
+        Tag: "_POSITION"
+        0    ( &bed39b6c  &3be0619a  &c0b65f10 )
+        1    ( &3ed39b6c  &bbe0467a  &c0a03a08 )
+        2    ( &beb1284a  &3be0651e  &c0b88644 )
+        3    ( &3eb1284c  &bbe0485e  &c09e12d4 )
+        4    ( &beb12846  &3be05fad  &c09e12d6 )
+        5    ( &3eb12846  &bbe0448c  &c0b88642 )
+        6    ( &bed39b74  &3be06332  &c0a03a08 )
+        7    ( &3ed39b78  &bbe04671  &c0b65f10 )
+    }
+    Stream {
+        Format: FLOAT3
+        Tag: "_NORMAL"
+        0    ( &3c13a987  &3f7ffaac  &3c13c278 )
+        1    ( &3c13ae88  &3f7ffaad  &3c13bcb8 )
+        2    ( &3c13a936  &3f7ffaac  &3c13c2d5 )
+        3    ( &3c13aed9  &3f7ffaad  &3c13bc5b )
+        4    ( &3c13c187  &3f7ffaad  &bc13a84c )
+        5    ( &3c13bbbc  &3f7ffaac  &bc13ad48 )
+        6    ( &3c13c1e6  &3f7ffaad  &bc13a7fb )
+        7    ( &3c13bb5f  &3f7ffaad  &bc13ad99 )
+    }
+    Stream {
+        Format: FLOAT2
+        Tag: "_UV0"
+        AliasCount: 1
+        Aliases: "_TEXCOORD0"
+        0    ( &bc729960  &3ee55a62 )
+        1    ( &3e906de4  &3f7f2a26 )
+        2    ( &3e906e00  &3ee55a62 )
+        3    ( &bc729e20  &3f7f2a29 )
+        4    ( &3e92253e  &3f3c211c )
+        5    ( &bc714510  &3e1385f0 )
+        6    ( &bc714370  &3f3c2122 )
+        7    ( &3e922562  &3e1385f0 )
+    }
+    Stream {
+        Format: FLOAT4
+        Tag: "_RGBA"
+        0    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        1    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        2    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        3    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        4    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        5    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        6    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+        7    ( &3f808081  &3f808081  &3f808081  &3f7efeff )
+    }
+    Triangles {
+        0    ( 2     1     0 )
+        1    ( 1     3     0 )
+        2    ( 6     5     4 )
+        3    ( 5     7     4 )
+    }
+}
+Part {
+    Name: "defaultpart"
+    PieceCount: 1
+    LocatorCount: 0
+    Pieces: 0
+    Locators:
+}
+

@@ -1,0 +1,18 @@
+SiiNunit
+{
+flare_vehicle: flare.vehicle.chrom_wled
+{
+	dir_type: wide
+	light_type: electrics
+	model: "/model/flare/vehicle_chromium_wled.pmd"
+
+  specular_color: (3.4, 3.4, 3.3)
+	diffuse_color: (1.08, 1.08, 1.01)
+	range: 0.2
+	inner_angle: 0.1
+	outer_angle: 175.0
+	type: spot
+	forward_distance: false
+	scale_factor: 2
+}
+}
